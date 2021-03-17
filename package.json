@@ -1,0 +1,49 @@
+{
+  "name": "m-toolset",
+  "version": "0.1.0",
+  "description": "A basic tool set",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel es --out-dir lib && uglifyjs lib/index.js -c -m -o lib/toolset-min.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.16",
+    "uglify-js": "^3.13.1"
+  },
+  "keywords": [
+    "download",
+    "URL",
+    "blob",
+    "Proxy",
+    "fetch",
+    "promise",
+    "progress"
+  ],
+  "author": {
+    "name": "adiu",
+    "email": "adiu_1024@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/adiu-1024/m-toolset/issues",
+    "email": "adiu_1024@163.com"
+  },
+  "registry": {
+    "type": "git",
+    "url": "https://github.com/adiu-1024/m-toolset"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "lib/index.js",
+    "lib/toolset-min.js"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 14.16.0",
+    "npm": ">= 6.14.11"
+  }
+}
