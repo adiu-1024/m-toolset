@@ -8,9 +8,9 @@ import {
   listToObjByValue
 } from './data'
 
-export {
-  getVideoInfo,
+export default {
   unique,
   listToTree,
-  listToObjByValue
+  listToObjByValue,
+  getVideoInfo,
 }

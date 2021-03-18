@@ -1,6 +1,6 @@
 {
   "name": "m-toolset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic tool set",
   "main": "lib/index.js",
   "scripts": {
@@ -15,10 +15,10 @@
     "uglify-js": "^3.13.1"
   },
   "keywords": [
-    "getVideoInfo",
     "unique",
     "listToTree",
-    "listToObjByValue"
+    "listToObjByValue",
+    "getVideoInfo"
   ],
   "author": {
     "name": "adiu",
