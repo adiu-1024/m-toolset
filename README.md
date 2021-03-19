@@ -27,6 +27,16 @@
     }
   )
   ```
+  ```JS
+  toolset.getVideoInfo(file, false).then(
+    (data) => {
+      console.log('Width, height and duration of video', data)
+    },
+    error => {
+      console.log(error)
+    }
+  )
+  ```
 
 * Object array to object
   ```JS

@@ -1,6 +1,6 @@
 {
   "name": "m-toolset",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A basic tool set",
   "main": "lib/index.js",
   "scripts": {
@@ -11,8 +11,7 @@
     "@babel/core": "^7.12.16",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-transform-runtime": "^7.12.15",
-    "@babel/preset-env": "^7.12.16",
-    "uglify-js": "^3.13.1"
+    "@babel/preset-env": "^7.12.16"
   },
   "keywords": [
     "unique",
