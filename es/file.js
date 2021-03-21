@@ -19,7 +19,7 @@ const getVideoInfo = function(file, captureImage = true) {
         }, 'image/jpeg', 0.95)
       })
     } else {
-      video.addEventListener('loadeddata', function() {
+      video.addEventListener('loadedmetadata', function() {
         const { videoWidth, videoHeight, duration } = this
         URL.revokeObjectURL(this.src)
         resolve({ videoWidth, videoHeight, duration })
