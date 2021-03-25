@@ -12,5 +12,5 @@ export default {
   unique,
   listToTree,
   listToObjByValue,
-  getVideoInfo,
+  getVideoInfo
 }

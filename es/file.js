@@ -29,6 +29,6 @@ const getVideoInfo = function(file, captureImage = true) {
   })
 }
 
-export default {
+export {
   getVideoInfo
 }
