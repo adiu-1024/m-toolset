@@ -1,6 +1,6 @@
 {
   "name": "m-toolset",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A basic tool set",
   "main": "lib/index.js",
   "scripts": {

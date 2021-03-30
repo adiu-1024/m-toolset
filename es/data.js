@@ -6,14 +6,14 @@ const listToObjByValue = (list, fieldName) => {
   }, {})
 }
 
-const unique = (list, primaryKey) => {
+const unique = (list, primaryKey, groupName = 'options') => {
   const map = new Map()
   for (const item of list) {
     const value = item[primaryKey]
     if (map.has(value)) {
       map.get(value)['options'].push(item)
     } else {
-      map.set(value, {[primaryKey]: value, options: [item]})
+      map.set(value, {[primaryKey]: value, [groupName]: [item]})
     }
   }
   return [...map.values()]
